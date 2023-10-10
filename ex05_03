@@ -15,12 +15,12 @@ abstract class Calculator{
 	}
 	abstract protected int calc();
 }
-abstract class Adder extends Calculator{
+class Adder extends Calculator{
 	public int calc() {
 		return a+b;
 	}
 }
-abstract class Subtracter extends Calculator{
+class Subtracter extends Calculator{
 	public int calc() {
 		return a-b;
 	}
